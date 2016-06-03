@@ -25,3 +25,17 @@ section {
   width: 69%;
   margin: 0 auto;
 }
+
+li a img {
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+  list-style: none
+}
+
+.large-photo img {
+width: 400px;
+height: 600px;
+}
