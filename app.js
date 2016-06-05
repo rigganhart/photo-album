@@ -12,13 +12,30 @@ $('li a').on('click', function (event) {
 
 $('li.photo a').on('click', function (event) {
     event.preventDefault();
-    console.log($(this).attr());
+    console.log($(this));
 
   });
 
 
-$('button h3').on('click', function (event) {
+$('button').on('click', function (event) {
 
   event.preventDefault();
-  console.log($(this).text());
+  console.log($(this).attr('name'));
+
+  var relatedSection = "." + $(this).attr('name');
+  $(relatedSection).addClass('active');
+  $(relatedSection).siblings().removeClass('active');
 });
+
+//appending data to html, i used info from bobloblawblog demo
+// var albumHtmlstr = "<ul>";
+//   albums.forEach(function(element,idx) {
+//   albumHtmlStr += `
+//   <ul class="albums active">
+//       <li class="album">
+//           <ul class="photos">
+//               <li class="photo"></li>
+//           </ul>
+//       </li>
+//   </ul>
+// `

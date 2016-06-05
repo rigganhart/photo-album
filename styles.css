@@ -5,6 +5,18 @@ body {
   color: white;
 
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+.main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+li {
+  display: inline-block;
+  margin: 0 auto;
+}
 .active {
   display: inline-block;
 }
@@ -13,29 +25,28 @@ section {
   display: none;
 }
 
+.imageThumb {
+  width: 200px;
+  height: 200px;
+
+}
 
 .albumcover {
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 3px solid white;
-}
-
-.main-container {
-  width: 69%;
-  margin: 0 auto;
-}
-
-li a img {
   width: 200px;
   height: 200px;
 }
 
 ul {
-  list-style: none
+  list-style: none;
+  padding: 0;
+}
+aside.sidebar {
+  width: 15%;
+  margin: 0;
+  display: inline-block;
 }
 
-.large-photo img {
-width: 400px;
-height: 600px;
+.album-container {
+  width: 84%;
+  float: right;
 }
