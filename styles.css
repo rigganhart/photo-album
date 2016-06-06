@@ -10,7 +10,7 @@ a {
   color: white;
 }
 .main-container {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 }
 li {
@@ -34,6 +34,7 @@ section {
 .albumcover {
   width: 200px;
   height: 200px;
+  border: 4px solid white;
 }
 
 ul {
@@ -45,8 +46,21 @@ aside.sidebar {
   margin: 0;
   display: inline-block;
 }
+aside button {
+  margin-top: 2%;
+}
 
 .album-container {
   width: 84%;
   float: right;
+}
+.large {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-top: 2%;
+}
+.photo button {
+  margin: 0 auto;
+  display: block
 }

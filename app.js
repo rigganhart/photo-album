@@ -27,6 +27,11 @@ $('button').on('click', function (event) {
   $(relatedSection).siblings().removeClass('active');
 });
 
+
+
+
+
+
 //appending data to html, i used info from bobloblawblog demo
 // var albumHtmlstr = "<ul>";
 //   albums.forEach(function(element,idx) {
